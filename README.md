@@ -2,7 +2,7 @@
 A single, standalone version of [Preact](https://github.com/preactjs/preact), [HTM](https://github.com/developit/htm) and [Preact Signals](https://github.com/preactjs/signals). No external dependencies, just one single file.
 
 ## Usage
-### Direct CDN import
+### Direct CDN import in HTML
 ```html
 <div id="app"></div>
 <script type="module">
@@ -45,7 +45,7 @@ All rights belong to [Preact](https://github.com/preactjs/preact), [HTM](https:/
 Install and bundle them (via [Microbundle](https://github.com/developit/microbundle)):
 ```
 git clone 
-cd preact_htm_signals_standalone
+cd preact-htm-signals-standalone
 pnpm i
 pnpm run bundle
 ```
