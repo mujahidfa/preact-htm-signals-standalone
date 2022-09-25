@@ -6,7 +6,7 @@ A single, standalone version of [Preact](https://github.com/preactjs/preact), [H
 ```html
 <div id="app"></div>
 <script type="module">
-  import { html, render, signal } from "standalone.js";
+  import { html, render, signal } from "https://cdn.jsdelivr.net/npm/preact-htm-signals-standalone/dist/standalone.js";
 
   const count = signal(0);
 
@@ -26,7 +26,7 @@ A single, standalone version of [Preact](https://github.com/preactjs/preact), [H
 </script>
 ```
 ### Via npm (not recommended)
-I don't recommend installing this package via NPM. It's best to install the packages separately:
+I don't recommend installing this package via NPM. It's best to install [Preact](https://github.com/preactjs/preact), [HTM](https://github.com/developit/htm) and [Preact Signals](https://github.com/preactjs/signals) separately:
 ```sh
 npm install preact htm @preact/signals
 # or yarn
