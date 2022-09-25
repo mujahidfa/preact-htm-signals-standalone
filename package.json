@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A single, standalone version of Preact, HTM and Preact Signals. No external dependencies, just one single file.",
   "type": "module",
+  "main": "dist/standalone.js",
   "module": "dist/standalone.js",
   "umd:main": "dist/standalone.umd.js",
   "scripts": {
