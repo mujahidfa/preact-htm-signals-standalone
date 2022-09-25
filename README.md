@@ -1,4 +1,6 @@
 # Preact + HTM + Preact Signals standalone
+[![](https://data.jsdelivr.com/v1/package/npm/preact-htm-signals-standalone/badge)](https://www.jsdelivr.com/package/npm/preact-htm-signals-standalone)
+
 A single, standalone version of [Preact](https://github.com/preactjs/preact), [HTM](https://github.com/developit/htm) and [Preact Signals](https://github.com/preactjs/signals). No external dependencies, just one single file.
 
 ## Usage

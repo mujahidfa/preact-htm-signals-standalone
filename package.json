@@ -1,6 +1,6 @@
 {
   "name": "preact-htm-signals-standalone",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A single, standalone version of Preact, HTM and Preact Signals. No external dependencies, just one single file.",
   "type": "module",
   "main": "dist/standalone.js",
