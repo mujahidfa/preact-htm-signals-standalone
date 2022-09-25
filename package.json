@@ -1,0 +1,40 @@
+{
+  "name": "preact_htm_signals_standalone",
+  "version": "0.0.0",
+  "description": "A single, standalone version of Preact, HTM and Preact Signals. No external dependencies, just one single file.",
+  "type": "module",
+  "module": "standalone.js",
+  "scripts": {
+    "bundle": "microbundle index.js -o ./dist/standalone.js -f es,umd --no-sourcemap --target web"
+  },
+  "keywords": [
+    "preact signals",
+    "signals",
+    "standalone",
+    "cdn",
+    "preact",
+		"react",
+		"ui",
+		"user interface",
+		"virtual dom",
+		"vdom",
+		"components",
+		"dom diff",
+		"front-end",
+		"framework",
+    "Hyperscript Tagged Markup",
+    "tagged template",
+    "template literals",
+    "html",
+    "htm",
+    "jsx",
+    "virtual dom",
+    "hyperscript"
+  ],
+  "devDependencies": {
+    "@preact/signals": "^1.1.1",
+    "htm": "^3.1.1",
+    "microbundle": "^0.15.1",
+    "preact": "^10.11.0"
+  }
+}
