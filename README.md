@@ -44,7 +44,7 @@ All rights belong to [Preact](https://github.com/preactjs/preact), [HTM](https:/
 ## Building from source
 Install and bundle them (via [Microbundle](https://github.com/developit/microbundle)):
 ```
-git clone 
+git clone https://github.com/mujahidfa/preact-htm-signals-standalone.git
 cd preact-htm-signals-standalone
 pnpm i
 pnpm run bundle
