@@ -4,13 +4,13 @@ specifiers:
   '@preact/signals': ^1.1.2
   htm: 3.1.1
   microbundle: ^0.15.1
-  preact: ^10.11.2
+  preact: ^10.11.3
 
 devDependencies:
-  '@preact/signals': 1.1.2_preact@10.11.2
+  '@preact/signals': 1.1.2_preact@10.11.3
   htm: 3.1.1
   microbundle: 0.15.1
-  preact: 10.11.2
+  preact: 10.11.3
 
 packages:
 
@@ -1335,13 +1335,13 @@ packages:
     resolution: {integrity: sha512-z3/bCj7rRA21RJb4FeJ4guCrD1CQbaURHkCTunUWQpxUMAFOPXCD8tSFqERyGrrcSb4T3Hrmdc1OAl0LXBHwiw==}
     dev: true
 
-  /@preact/signals/1.1.2_preact@10.11.2:
+  /@preact/signals/1.1.2_preact@10.11.3:
     resolution: {integrity: sha512-MLNNrICSllHBhpXBvXbl7K5L1HmIjuTzgBw+zdODqjM/cLGPXdYiAWt4lqXlrxNavYdoU4eljb+TLE+DRL+6yw==}
     peerDependencies:
       preact: 10.x
     dependencies:
       '@preact/signals-core': 1.2.2
-      preact: 10.11.2
+      preact: 10.11.3
     dev: true
 
   /@rollup/plugin-alias/3.1.9_rollup@2.79.1:
@@ -3161,8 +3161,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /preact/10.11.2:
-    resolution: {integrity: sha512-skAwGDFmgxhq1DCBHke/9e12ewkhc7WYwjuhHB8HHS8zkdtITXLRmUMTeol2ldxvLwYtwbFeifZ9uDDWuyL4Iw==}
+  /preact/10.11.3:
+    resolution: {integrity: sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg==}
     dev: true
 
   /pretty-bytes/3.0.1:
