@@ -1,6 +1,6 @@
 {
   "name": "preact-htm-signals-standalone",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A single, standalone version of Preact, HTM and Preact Signals. No external dependencies, just one single file.",
   "type": "module",
   "main": "dist/standalone.umd.js",
@@ -39,6 +39,6 @@
     "@preact/signals": "^1.1.3",
     "htm": "3.1.1",
     "microbundle": "^0.15.1",
-    "preact": "^10.12.0"
+    "preact": "^10.12.1"
   }
 }
