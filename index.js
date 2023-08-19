@@ -11,54 +11,5 @@
  * limitations under the License.
  */
 
-import { h, Component, createContext, createRef, render } from "preact";
-import {
-  useState,
-  useReducer,
-  useEffect,
-  useLayoutEffect,
-  useRef,
-  useImperativeHandle,
-  useMemo,
-  useCallback,
-  useContext,
-  useDebugValue,
-  useErrorBoundary,
-} from "preact/hooks";
-import htm from "htm";
-import {
-  batch,
-  computed,
-  effect,
-  useComputed,
-  useSignal,
-  signal,
-} from "@preact/signals";
-
-const html = htm.bind(h);
-
-export {
-  h,
-  html,
-  render,
-  Component,
-  createContext,
-  createRef,
-  useState,
-  useReducer,
-  useEffect,
-  useLayoutEffect,
-  useRef,
-  useImperativeHandle,
-  useMemo,
-  useCallback,
-  useContext,
-  useDebugValue,
-  useErrorBoundary,
-  batch,
-  computed,
-  effect,
-  useComputed,
-  useSignal,
-  signal,
-};
+export * from "@preact/signals";
+export * from "htm/preact";
