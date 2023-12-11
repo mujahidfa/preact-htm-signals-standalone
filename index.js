@@ -11,7 +11,15 @@
  * limitations under the License.
  */
 
-import { h, Component, createContext, createRef, render } from "preact";
+import {
+  h,
+  Component,
+  createContext,
+  createRef,
+  render,
+  cloneElement,
+  toChildArray,
+} from "preact";
 import {
   useState,
   useReducer,
@@ -44,6 +52,8 @@ export {
   Component,
   createContext,
   createRef,
+  cloneElement,
+  toChildArray,
   useState,
   useReducer,
   useEffect,
