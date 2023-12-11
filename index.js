@@ -47,6 +47,7 @@ const html = htm.bind(h);
 
 export {
   h,
+  htm,
   html,
   render,
   Component,
